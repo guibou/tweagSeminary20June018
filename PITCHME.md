@@ -4,6 +4,7 @@ Guillaume.Bouchard@tweag.io
 
 20 june, 2018
 
+
 ---
 
 # Valeo lighting systems
@@ -64,11 +65,6 @@ TODO: vampire example
 
 ![](output/images-3.png.png)
 
----
-
-## Examples
-
-![](output/images-4.png.png)
 
 ---
 
@@ -81,14 +77,6 @@ TODO: vampire example
 ## Rendering Equation
 
 ![](output/images-18.png.png)
----
-
-## Rendering Equation
-![](output/images-19.png.png)
----
-
-## Rendering Equation
-![](output/images-20.png.png)
 ---
 
 ## Rendering Equation
@@ -111,13 +99,8 @@ TODO: vampire example
 ![](output/images-25.png.png)
 ---
 
-## Quantites
 
-![](output/images-26.png.png)
-
----
-
-Can we solve this equation ?
+Can we solve this equation?
 
 Too complex:
 
@@ -141,31 +124,31 @@ Too complex:
 
 ---
 
-## Lever of quality: Number of samples
+## Number of samples
 
 ![](output/images-29.png.png)
 
 ---
 
-## Lever of quality: Sampling strategy
+## Sampling strategy
 
 ![](output/images-30.png.png)
 
 ---
 
-## Example: uniform sampling
+## Example: uniform
 
 ![](output/images-31.png.png)
 
 ---
 
-## Example: smarter "importance" sampling
+## Example: "importance"
 
 ![](output/images-32.png.png)
 
 ---
 
-TODO: an real example (blender live demo ?)
+Blender live demo!
 
 ---
 
@@ -219,20 +202,15 @@ TODO: an real example (blender live demo ?)
 
 ---
 
-~[](output/images-46.png.png)
+![](output/images-46.png.png)
 
 ---
 
 # A few other interesting topics
 
-- Acceleration structures
-- Adaptive sampling
-- Volume sampling
-- Many light
-
 ---
 
-# Acceleration structures
+## Acceleration structures
 
 - Ray test intersection: `O(n)`
 
@@ -240,12 +218,56 @@ TODO: schema
 
 ---
 
-# Adative sampling
+## Adative sampling
 
 TODO: images
 
 ---
 
-And now, let's code. Our first raytracer in ten minutes
+# Trivia: My first haskell project
 
-Show code! Yeah.
+- With a friend
+- Haskell ray tracer
+- I was supposed to teach him image synthesis
+- We tried Haskell, because it looked boring (who uses types in 2015?)
+
+https://github.com/gbataille/halray
+
+---
+
+# SmallPTHS
+
+https://github.com/guibou/smallPTHS
+
+
+- An experiment on raytracing / haskell / performance
+- Goal: match the performance of `smallpt.cpp`, a reference implementation
+
+- Laptop: Intel Core i7-4700HQ @ 2.4 GHz (4 cores, 8 threads) : 1.40x slower in linear, 1.7x slower in parallel.
+- Workstation: Intel Core i7-6800K CPU @ 3.40GHz (6 cores, 12 threads) : 1.60x slower in linear, 3.2x slower in parallel.
+
+- Great (and there is still a space leak and allocation in the main loop)
+---
+
+# Conclusion
+
+- Thank you
+- Questions ?
+
+---
+
+# Backup slides
+
+## Rendering Equation
+![](output/images-19.png.png)
+---
+
+## Rendering Equation
+![](output/images-20.png.png)
+---
+
+## Quantites
+
+![](output/images-26.png.png)
+
+---
