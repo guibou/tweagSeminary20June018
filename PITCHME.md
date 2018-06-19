@@ -209,6 +209,10 @@ TODO: an real example (blender live demo ?)
 
 ---
 
+![](output/images-44.png.png)
+
+---
+
 ## Multiple importance sampling
 
 ![](output/images-45.png.png)
