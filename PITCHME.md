@@ -4,6 +4,8 @@ Guillaume.Bouchard@tweag.io
 
 20 june, 2018
 
+---
+
 # Valeo lighting systems
 
 - Virtual prototyping of (car) lamp
