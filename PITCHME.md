@@ -21,7 +21,7 @@ Challenges:
 
 ![](output/images-6.png.png)
 
-(One week of rendering on a 2010 high end workstation)
+(One day of rendering on a 2010 high end workstation)
 
 ---
 
