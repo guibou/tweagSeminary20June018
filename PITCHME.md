@@ -281,16 +281,13 @@ $$f(\omega_i, \omega_o) \propto \delta (\omega_o - refract(\omega_i))$$
 
 ## Numbers
 
-- 4K images (8 millions pixels)
-
-  - 4 channels (R,G,B,A) 32 bits float
-  - more than 100 "layers" x 2 points of view
+- 4K images (8 millions pixels), 100 layers, stereo
   - --> 25 Giga bytes of memory just for the final image
 
 - from a few to millions of lights
 - millions of geometry instances (composed of millions of triangles)
 
-  - One scene with 40 Giga bytes of memory for transformations matrices
+- One scene with 40 Giga bytes of memory for transformations matrices
 
 - The little prince: 1 Tera bytes of texture in one image
 
