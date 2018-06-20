@@ -15,12 +15,7 @@ Challenges:
 
 - Physically based rendering
 - Finale images must look like photography
-- Complex light paths (it was my PhD topic)
-
-- Quality at all cost:
-
-  - Polarisation
-  - Wave interferences
+- Complex light paths (polarisation, interferences)
 
 ---
 
@@ -47,7 +42,9 @@ https://www.youtube.com/watch?v=fEPqgSNLfK8
 
 ---
 
-TODO: vampire example
+## Artistic freedom
+
+![](vampire.png)
 
 ---
 
@@ -220,7 +217,12 @@ TODO: schema
 
 ## Adative sampling
 
-TODO: images
+![](no_adaptive.png)
+
+---
+## Adative sampling: heat map
+
+![](heat_adaptive.png)
 
 ---
 
