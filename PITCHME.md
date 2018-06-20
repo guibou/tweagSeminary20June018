@@ -7,6 +7,12 @@ Guillaume.Bouchard@tweag.io
 
 ---
 
+![](output/images-6.png.png)
+
+(One day of rendering on a 2010 high end workstation)
+
+---
+
 # Valeo lighting systems
 
 - Virtual prototyping of (car) lamp
@@ -19,11 +25,6 @@ Challenges:
 
 ---
 
-![](output/images-6.png.png)
-
-(One day of rendering on a 2010 high end workstation)
-
----
 
 # Mercenaries engineering
 
@@ -33,6 +34,11 @@ Challenges:
 
 - Complex scenes (lot of geometry, details, materials, textures, lampes)
 - Artistic freedom
+
+---
+
+![](mune.jpg)
+
 
 ---
 
