@@ -102,7 +102,7 @@ https://www.youtube.com/watch?v=fEPqgSNLfK8
 
 ## Diffuse surface
 
-![](materials/diffuse.png)
+![](materials/rough.png)
 
 $$f(\omega_i, \omega_o) \propto C$$
 
@@ -142,14 +142,11 @@ $$f(\omega_i, \omega_o) \propto \delta (\omega_o - refract(\omega_i))$$
 
 # How to render?
 
---
+---
 
-- Can we solve te rendering equation?
+- Can we solve the rendering equation?
 
 - Too complex:
-
-- Difficult to model
-- Lot of discontinuities
 
 - --> Monte Carlo
 
@@ -264,12 +261,12 @@ $$f(\omega_i, \omega_o) \propto \delta (\omega_o - refract(\omega_i))$$
 
 ---
 
-## Adative sampling
+## Adaptive sampling
 
 ![](no_adaptive.png)
 
 ---
-## Adative sampling: heat map
+## Adaptive sampling: heat map
 
 ![](heat_adaptive.png)
 
