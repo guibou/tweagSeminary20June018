@@ -71,7 +71,7 @@ https://www.youtube.com/watch?v=fEPqgSNLfK8
 
 ---
 
-## What is an image
+## What is an image?
 
 ![](output/images-17.png.png)
 
