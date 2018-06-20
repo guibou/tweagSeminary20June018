@@ -293,6 +293,13 @@ $$f(\omega_i, \omega_o) \propto \delta (\omega_o - refract(\omega_i))$$
 
 ---
 
+## Numbers
+
+- 25 images / second
+- 1h30 movies
+
+---
+
 # Trivia: My first haskell project
 
 - With a friend
