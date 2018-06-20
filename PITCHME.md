@@ -96,15 +96,62 @@ https://www.youtube.com/watch?v=fEPqgSNLfK8
 ![](output/images-25.png.png)
 ---
 
+# Materiel models
 
-Can we solve this equation?
+---
 
-Too complex:
+## Diffuse surface
 
-- Difficult to model in close form
+![](materials/diffuse.png)
+
+$$f(\omega_i, \omega_o) \propto C$$
+
+---
+
+## Rough surface
+
+![](materials/diffuse.png)
+
+$$f(\omega_i, \omega_o) \propto |\omega_i . n| ^ p$$
+
+---
+
+## Perfect mirror
+
+![](materials/mirro.png)
+
+$$f(\omega_i, \omega_o) \propto \delta (\omega_o - reflect(\omega_i))$$
+
+---
+
+## Perfect glass
+
+![](materials/glass.png)
+
+$$f(\omega_i, \omega_o) \propto \delta (\omega_o - refract(\omega_i))$$
+
+(Snell's law)
+
+---
+
+## Material model in action
+
+(Blender live demo)
+
+---
+
+# How to render?
+
+--
+
+- Can we solve te rendering equation?
+
+- Too complex:
+
+- Difficult to model
 - Lot of discontinuities
 
---> Monte Carlo
+- --> Monte Carlo
 
 ---
 
@@ -142,10 +189,6 @@ Too complex:
 ## Example: "importance"
 
 ![](output/images-32.png.png)
-
----
-
-Blender live demo!
 
 ---
 
@@ -273,3 +316,5 @@ https://github.com/guibou/smallPTHS
 ![](output/images-26.png.png)
 
 ---
+
+TODO: a bit of numbers (textures, geometry, ...)
