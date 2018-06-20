@@ -102,15 +102,15 @@ https://www.youtube.com/watch?v=fEPqgSNLfK8
 
 ## Diffuse surface
 
-![](materials/rough.png)
+![](materials/diffuse.png)
 
 $$f(\omega_i, \omega_o) \propto C$$
 
 ---
 
-## Rough surface
+## Glossy surface
 
-![](materials/diffuse.png)
+![](materials/glossy.png)
 
 $$f(\omega_i, \omega_o) \propto |\omega_i . n| ^ p$$
 
