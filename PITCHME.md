@@ -281,11 +281,9 @@ $$f(\omega_i, \omega_o) \propto \delta (\omega_o - refract(\omega_i))$$
 - 4K images (8 millions pixels)
 
   - 4 channels (R,G,B,A) 32 bits float
-  - 2 points of view (stereo)
-  - more than 100 "layers"
+  - more than 100 "layers" x 2 points of view
   - --> 25 Giga bytes of memory just for the final image
 
-- 2000 samples per pixel
 - from a few to millions of lights
 - millions of geometry instances (composed of millions of triangles)
 
