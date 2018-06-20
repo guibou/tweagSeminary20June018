@@ -7,12 +7,6 @@ Guillaume.Bouchard@tweag.io
 
 ---
 
-![](output/images-6.png.png)
-
-(One day of rendering on a 2010 high end workstation)
-
----
-
 # Valeo lighting systems
 
 - Virtual prototyping of (car) lamp
@@ -22,6 +16,13 @@ Challenges:
 - Physically based rendering
 - Finale images must look like photography
 - Complex light paths (polarisation, interferences)
+
+---
+
+![](output/images-6.png.png)
+
+(One day of rendering on a 2010 high end workstation)
+
 
 ---
 
