@@ -254,7 +254,13 @@ $$f(\omega_i, \omega_o) \propto \delta (\omega_o - refract(\omega_i))$$
 
 - Ray test intersection: `O(n)`
 
-TODO: schema
+![](withoutBoxes.png)
+
+---
+
+## Acceleration structures
+
+![](withBoxes.png)
 
 ---
 
@@ -266,6 +272,26 @@ TODO: schema
 ## Adative sampling: heat map
 
 ![](heat_adaptive.png)
+
+---
+
+
+## Numbers
+
+- 4K images (8 millions pixels)
+
+  - 4 channels (R,G,B,A) 32 bits float
+  - 2 points of view (stereo)
+  - more than 100 "layers"
+  - --> 25 Giga bytes of memory just for the final image
+
+- 2000 samples per pixel
+- from a few to millions of lights
+- millions of geometry instances (composed of millions of triangles)
+
+  - One scene with 40 Giga bytes of memory for transformations matrices
+
+- The little prince: 1 Tera bytes of texture in one image
 
 ---
 
@@ -314,7 +340,3 @@ https://github.com/guibou/smallPTHS
 ## Quantites
 
 ![](output/images-26.png.png)
-
----
-
-TODO: a bit of numbers (textures, geometry, ...)
