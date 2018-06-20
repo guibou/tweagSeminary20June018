@@ -334,6 +334,8 @@ https://github.com/guibou/smallPTHS
 
 # Backup slides
 
+---
+
 ## Rendering Equation
 ![](output/images-19.png.png)
 ---
